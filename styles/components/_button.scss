@@ -63,6 +63,8 @@
 }
 
 .btn-text {
+  font-weight: 700;
+
   &:link,
   &:visited {
     font-size: $default-font-size;

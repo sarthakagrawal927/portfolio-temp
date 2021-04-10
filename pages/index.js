@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Main from "../components/main";
 import Features from "../components/features";
 import Projects from "../components/projects";
+import Blogs from "../components/blogs";
 export default function Home() {
   return (
     <Layout title='Home | Significant Hobbies'>
@@ -11,6 +12,7 @@ export default function Home() {
       <Main />
       <Features />
       <Projects />
+      <Blogs />
     </Layout>
   );
 }
