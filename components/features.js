@@ -28,16 +28,16 @@ const list = [
       "adf aadf asdk sadkmadf asdk sadkmadf asdk sadkmsdk sadkadf asdk sadkmadf asdk sadkmadf asdk sadkmm",
   },
 ];
-const features = () => {
+const Features = () => {
   return (
     <section className='section-features'>
       <div className='row'>
         {list.map((feature) => {
-          return <Feature feature={feature} />;
+          return <Feature key={feature} feature={feature} />;
         })}
       </div>
     </section>
   );
 };
 
-export default features;
+export default Features;

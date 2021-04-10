@@ -1,4 +1,4 @@
-const feature = ({ feature }) => {
+const Feature = ({ feature }) => {
   return (
     <div className='col-1-of-4'>
       <div className='feature-box'>
@@ -13,4 +13,4 @@ const feature = ({ feature }) => {
   );
 };
 
-export default feature;
+export default Feature;
