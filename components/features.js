@@ -32,8 +32,8 @@ const Features = () => {
   return (
     <section className='section-features'>
       <div className='row'>
-        {list.map((feature) => {
-          return <Feature key={feature} feature={feature} />;
+        {list.map((feature, index) => {
+          return <Feature key={index} feature={feature} />;
         })}
       </div>
     </section>

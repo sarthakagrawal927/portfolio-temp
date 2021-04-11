@@ -9,10 +9,10 @@ const list = [
     img: "/img/nat-8.jpg",
   },
   {
-    head: "Well",
+    head: "Well again",
     iconName: "feature-box__icon icon-basic-compass",
     desc:
-      "adf asdadf asdk sadkmadf asdk sadkmadf asdk sadkmk saadf asdk sadkmadf  asdadf asdk sadkmadf asdk sadkmadf asdk sadkmk saadf asdk sadkmadf a asdadf asdk sadkmadf asdk sadkmadf asdk sadkmk saadf asdk sadkmadf aasdk sadkmadf asdk sadkmdkm",
+      "adf asdadf asdk sadkmadf asdk sadkmadf as dk sadkmk saadf asdk sadkmadf  asdadf asdk sadkmadf asdk sadkmadf asdk sadkmk saadf asdk sadkmadf a asdadf asdk sadkmadf asdk sadkmadf asdk sadkmk saadf asdk sadkmadf aasdk sadkmadf asdk sadkmdkm",
     img: "/img/nat-9.jpg",
   },
 ];
@@ -20,7 +20,7 @@ const Blogs = () => {
   return (
     <section className='section-blogs'>
       <div className='bg-video'>
-        <video className='bg-video__content' autoplay='true' muted='true' loop>
+        <video className='bg-video__content' autoPlay={true} muted={true} loop>
           <source src='/img/video.mp4' type='video/mp4' />
           <source src='/img/video.webm' type='video/webm' />
           Your Browser Not supported
@@ -30,8 +30,8 @@ const Blogs = () => {
         <h2 className='heading-secondary'>Making people genuinely happy</h2>
       </div>
       <div className='row'>
-        {list.map((blog) => {
-          return <Blog key={blog} blog={blog} />;
+        {list.map((blog, index) => {
+          return <Blog key={index} blog={blog} />;
         })}
       </div>
       <div className='u-center-text u-margin-top-huge'>

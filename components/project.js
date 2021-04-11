@@ -11,8 +11,8 @@ const Project = ({ project }) => {
         <div className='card__details'>
           <ul>
             {" "}
-            {project.techStack.map((tech) => {
-              return <li>{tech}</li>;
+            {project.techStack.map((tech, index) => {
+              return <li key={index}>{tech}</li>;
             })}
           </ul>
         </div>

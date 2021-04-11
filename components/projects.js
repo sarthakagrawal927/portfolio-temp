@@ -13,7 +13,7 @@ const list = [
   },
   ,
   {
-    head: "Well",
+    head: "Well hello there",
     imgName: "feature-box__icon icon-basic-map",
     techStack: ["tech 1", "tech 2"],
   },
@@ -26,8 +26,8 @@ const Projects = () => {
       </div>
       <div className='row'>
         {" "}
-        {list.map((project) => {
-          return <Project key={project} project={project} />;
+        {list.map((project, index) => {
+          return <Project key={index} project={project} />;
         })}
       </div>
       <div className='u-center-text u-margin-top-huge'>

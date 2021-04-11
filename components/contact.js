@@ -5,7 +5,7 @@ const contact = () => {
         {" "}
         <div className='contact'>
           <div className='contact__form'>
-            <form action='#' class='form'>
+            <form action='#' className='form'>
               <div className=' u-margin-bottom-medium'>
                 <h2 className='heading-secondary'>Making people happy</h2>
               </div>
