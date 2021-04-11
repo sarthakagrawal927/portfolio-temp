@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Footer from "./footer";
 export default function Layout({ children, home, title }) {
   return (
     <div>
@@ -13,6 +13,7 @@ export default function Layout({ children, home, title }) {
         <title>{title}</title>
       </Head>
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
