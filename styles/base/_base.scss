@@ -7,8 +7,20 @@
 }
 
 html {
-  //defines what 1 rem is , so acts as whole settings
+  //defines what 1 rem is (here 10px), so acts as whole settings
   font-size: 62.5%; //avoid calculation for rem // 10/16 %
+
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1rem = 9px so 9/16
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1rem = 8px so 8/16
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px so 12/16
+  }
 }
 
 body {
