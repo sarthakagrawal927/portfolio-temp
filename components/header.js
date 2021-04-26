@@ -10,7 +10,7 @@ const Header = () => {
           {" "}
           <span className='heading-primary--main'>OUTDOORS</span>
           <span className='heading-primary--secondary'>
-            is where life begins
+            is whe re life ends
           </span>
         </h1>
         <a href='' className='btn btn--white btn--animated'>
