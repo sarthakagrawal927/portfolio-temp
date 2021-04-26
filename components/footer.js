@@ -2,11 +2,17 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__logo-box'>
-        <img
-          src='/img/logo-green-2x.png'
-          alt='Full Logo'
-          className='footer__logo'
-        />
+        <picture className='footer__logo'>
+          <source
+            srcSet='/img/logo-green-small-1x.png 1x, /img/logo-green-small-2x.png 2x'
+            media='(max-width: 37.5em)'
+          />
+          <img
+            srcSet='/img/logo-green-1x.png 1x, /img/logo-green-2x.png 2x'
+            alt='Full Logo'
+            src='/img/logo-green-1x.png'
+          />
+        </picture>
       </div>
       <div className='row'>
         <div className='col-1-of-2'>
