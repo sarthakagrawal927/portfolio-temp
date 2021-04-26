@@ -1,25 +1,16 @@
-const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
+module.exports = {
+  amp: true,
+  images: {
+    domains: ["preview.redd.it", "external-preview.redd.it"],
+  },
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.node = {
+        fs: "empty",
+      };
+    }
 
-module.exports = (phase, { defaultConfig }) => {
-  if (phase === PHASE_DEVELOPMENT_SERVER) {
-    return {
-      reactStrictMode: true,
-      future: {
-        webpack5: true,
-      },
-      async redirects() {
-        return [
-          {
-            source: "/about",
-            destination: "/",
-            permanent: true,
-          },
-        ];
-      },
-    };
-  }
-
-  return {
-    /* config options for all phases except development here */
-  };
+    return config;
+  },
 };

@@ -8,8 +8,7 @@ import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 export default function Home() {
   return (
-    d
-    <Layout title='Home ! Significant Hobbies'>
+    <Layout title='Home | Significant Hobbies'>
       <Header />
       <Main />
       <Features />
