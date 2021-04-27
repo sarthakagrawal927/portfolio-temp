@@ -2,20 +2,20 @@ import Project from "./project";
 
 const list = [
   {
-    head: "Well FUck youcas",
+    head: "Well super duper awesome",
     imgName: "feature-box__icon icon-basic-world",
-    techStack: ["tech 1", "tech 2"],
+    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
   },
   {
-    head: "Well",
+    head: "Well hello there",
     imgName: "feature-box__icon icon-basic-compass",
-    techStack: ["tech 1", "tech 2"],
+    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
   },
   ,
   {
     head: "Well hello there",
     imgName: "feature-box__icon icon-basic-map",
-    techStack: ["tech 1", "tech 2"],
+    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
   },
 ];
 const Projects = () => {

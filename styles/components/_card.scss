@@ -152,6 +152,13 @@
         .card__picture {
           background-image: $primary-gradient, url("/img/nat-6.jpg");
         }
+        .card__heading-span {
+          background-image: linear-gradient(
+            to right bottom,
+            rgba($color-primary-light, 0.75),
+            rgba($color-primary-dark, 0.75)
+          );
+        }
       }
     }
     .col-1-of-3:nth-child(3) {
@@ -161,6 +168,13 @@
       .card__side--front {
         .card__picture {
           background-image: $tertiary-gradient, url("/img/nat-7.jpg");
+        }
+        .card__heading-span {
+          background-image: linear-gradient(
+            to right bottom,
+            rgba($color-tertiary-light, 0.75),
+            rgba($color-tertiary-dark, 0.75)
+          );
         }
       }
     }

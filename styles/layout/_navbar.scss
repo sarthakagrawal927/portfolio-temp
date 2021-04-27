@@ -37,6 +37,7 @@
       $color-primary-dark
     );
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+
     @include respond(tab-port) {
       top: 4.5rem;
       right: 4.5rem;
@@ -57,11 +58,11 @@
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     width: 0;
     opacity: 0;
+    pointer-events: none;
   }
 
   &__list {
     @include centering;
-    list-style: none;
     text-align: center;
     width: 100%;
   }
@@ -108,6 +109,7 @@
   &__checkbox:checked ~ &__nav {
     width: 100%;
     opacity: 1;
+    pointer-events: auto;
   }
 
   &__icon {
@@ -118,7 +120,7 @@
     &::after,
     &::before {
       width: 3rem;
-      height: 2px;
+      height: 2.5px;
       background-color: $color-grey-dark-3;
       display: inline-block;
     }

@@ -8,7 +8,7 @@ const Main = () => {
         <div className='row'>
           <div className='col-1-of-2'>
             <h3 className='heading-tertiary u-margin-bottom-small'>
-              Fall in love mother fucker
+              Fall in love with nature
             </h3>
             <p className='paragraph'>
               fjsnafjknas ksajnfkasjd fainfnf asnfds nosaf safasnfkjasf safowane
@@ -16,7 +16,7 @@ const Main = () => {
               safowane fsdomfas lasnflska fsaflms afmlsa safmnsal faslmd
             </p>
             <h3 className='heading-tertiary u-margin-bottom-small'>
-              Fall in love mother fucker
+              Fall in love with nature
             </h3>
             <p className='paragraph'>
               fjsnafjknas ksajnfkasjd fainfnf asnfds nosaf safasnfkjasf safowane
