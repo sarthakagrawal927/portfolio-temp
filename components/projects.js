@@ -3,19 +3,22 @@ import Project from "./project";
 const list = [
   {
     head: "Well super duper awesome",
-    imgName: "feature-box__icon icon-basic-world",
+    link: "",
     techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
+    github: "feature-box__icon icon-basic-world",
   },
   {
     head: "Well hello there",
-    imgName: "feature-box__icon icon-basic-compass",
+    link: "feature-box__icon icon-basic-compass",
     techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
+    github: "feature-box__icon icon-basic-world",
   },
   ,
   {
     head: "Well hello there",
-    imgName: "feature-box__icon icon-basic-map",
+    link: "feature-box__icon icon-basic-map",
     techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
+    github: "",
   },
 ];
 const Projects = () => {

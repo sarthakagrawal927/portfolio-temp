@@ -21,9 +21,19 @@ const Project = ({ project }) => {
         <div className='card__side card__side--back'>
           {" "}
           <div className='card__cta'>
-            <a href='' className='btn btn--white'>
-              <img src='/github-brands.svg' alt='' />
-            </a>
+            {project.link && (
+              <>
+                <a href={project.link} className='btn btn--white'>
+                  <img src='/world-wide-web.svg' alt='' />
+                </a>{" "}
+                <br /> <br /> <br />
+              </>
+            )}{" "}
+            {project.github && (
+              <a href={project.github} className='btn btn--white'>
+                <img src='/github-brands.svg' alt='' />
+              </a>
+            )}
           </div>
         </div>
       </div>
