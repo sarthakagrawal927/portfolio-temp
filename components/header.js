@@ -8,14 +8,14 @@ const Header = () => {
         {" "}
         <h1 className='heading-primary'>
           {" "}
-          <span className='heading-primary--main'>OUTDOORS</span>
+          <span className='heading-primary--main'>Hi There!</span>
           <span className='heading-primary--secondary'>
-            is whe re life ends
+            I am Sarthak Agrawal
           </span>
         </h1>
-        <a href='' className='btn btn--white btn--animated'>
-          Find Your
-        </a>
+        <p href='' className='btn btn--white btn--animated'>
+          Welcome
+        </p>
       </div>
     </header>
   );

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "./footer";
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
 export default function Layout({ children, home, title }) {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Layout({ children, home, title }) {
         <title>{title}</title>
         <meta name='viewport' content='width=device-width initial-scale=1.0' />
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <main>{children}</main>
       <Footer />
     </div>

@@ -1,20 +1,22 @@
 import Head from "next/head";
 import Header from "../components/header";
 import Layout from "../components/layout";
-import Description from "../components/description";
-import Features from "../components/features";
 import Projects from "../components/projects";
+
+// import Description from "../components/description";
+// import Features from "../components/features";
+// import Contact from "../components/contact";
 // import Blogs from "../components/blogs";
-import Contact from "../components/contact";
+
 export default function Home() {
   return (
     <Layout title='Sarthak Agrawal'>
       <Header />
-      <Description />
-      <Features />
+      {/* <Description />
+      <Features /> */}
       <Projects />
       {/* <Blogs /> */}
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   );
 }

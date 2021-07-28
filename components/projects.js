@@ -2,30 +2,30 @@ import Project from "./project";
 
 const list = [
   {
-    head: "Well super duper awesome",
-    link: "",
-    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
-    github: "feature-box__icon icon-basic-world",
+    head: "GitTinder",
+    link: "http://gittinder.herokuapp.com/",
+    techStack: ["ReactJS", "NodeJS", "Redux", "MongoDB", "AWS"],
+    github: "https://www.github.com/sarthakagrawal927/gittinder",
   },
   {
-    head: "Well hello there",
-    link: "feature-box__icon icon-basic-compass",
-    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
-    github: "feature-box__icon icon-basic-world",
+    head: "EasyLOR",
+    link: "https://easy-lor-dev.vercel.app/",
+    techStack: ["TS", "NextJS", "GraphQL", "NodeJS", "PostgreSQL"],
+    github: "https://github.com/sarthakagrawal927/EasyLOR",
   },
   ,
   {
-    head: "Well hello there",
-    link: "feature-box__icon icon-basic-map",
-    techStack: ["tech 1", "tech 2", "tech 3", "tech 4", "tech 5"],
-    github: "",
+    head: "Performance Monitor",
+    link: "",
+    techStack: ["ReactJS", "SocketIO", "Redis", "MongoDB", "NodeJS"],
+    github: "https://github.com/sarthakagrawal927/performance",
   },
 ];
 const Projects = () => {
   return (
     <section className='section-tours'>
       <div className='u-center-text u-margin-bottom-big'>
-        <h2 className='heading-secondary'>Most popular tours</h2>
+        <h2 className='heading-secondary'>Featured Projects</h2>
       </div>
       <div className='row'>
         {" "}
@@ -34,7 +34,10 @@ const Projects = () => {
         })}
       </div>
       <div className='u-center-text u-margin-top-huge'>
-        <a href='' className='btn btn--green'>
+        <a
+          href='https://www.github.com/sarthakagrawal927'
+          target='_blank'
+          className='btn btn--green'>
           Discover all
         </a>
       </div>
